@@ -12,9 +12,9 @@ local ThemeManager = {} do
 		['Mint'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Tokyo Night'] 	= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
-		['Nekocheat'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e21e70","BackgroundColor":"121212","OutlineColor":"191919"}') },
-		['Nekocheat Blue'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"00f7ff","BackgroundColor":"121212","OutlineColor":"191919"}') },
-		['Gamesense'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"93b81a","BackgroundColor":"111111","OutlineColor":"191919"}') },
+		['Nekocheat'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"e21e70","BackgroundColor":"121212","OutlineColor":"191919"}') },
+		['Nekocheat Blue'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"00f7ff","BackgroundColor":"121212","OutlineColor":"191919"}') },
+		['Gamesense'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"93b81a","BackgroundColor":"111111","OutlineColor":"191919"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
